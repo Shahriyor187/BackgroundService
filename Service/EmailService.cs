@@ -49,7 +49,7 @@ public class EmailService
 
             using (SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587))
             {
-                smtpClient.Credentials = new NetworkCredential("shahriyormurodilov853@gmail.com", "your_key");
+                smtpClient.Credentials = new NetworkCredential("murodilov853@gmail.com", "your_key");
                 smtpClient.EnableSsl = true;
                 // Send the email
                 smtpClient.Send(mail);
